@@ -1,0 +1,338 @@
+/* header section */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eff2f1 !important;
+}
+header{
+    background-color: #3b5d50 !important;
+}
+nav{
+    background-color: #3b5d50 !important;
+}
+#base{
+    text-decoration: underline  rgb(211, 187, 7) 5px;
+    color: white;
+}
+#nav:hover{
+    text-decoration: underline rgb(200, 147, 2) 7px  ;
+    transition: 0.5s;
+    color: white;
+}
+.textItem
+{
+    align-self: center;
+    color: white;
+}
+.navName h1
+{
+    font-weight: 700;
+}
+.imgItem:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
+/* end */
+/* shop section */
+.textshop h3{
+    font-size: 35px;
+    font-weight: 600;
+}
+.textshop button{
+    cursor: pointer;
+}
+.textshop button:hover{
+    opacity: 1;
+    background-color: black;
+}
+.itemshop{
+    cursor: pointer;     
+}
+.itemshop:hover{
+    opacity: 0.7; 
+}       
+.textshop p 
+{
+   color:  rgba(115, 114, 114, 0.854)!important;
+}
+.itemshop p {
+    font-weight: 600;
+}
+
+.layerShop
+{
+    background-color: rgba(119, 119, 119, 0.194);
+    width: 80%;
+    height: 0rem;
+    opacity: 1;
+    position: absolute;
+    left: 10%;
+    bottom: 4%;
+    transition: 0.7s;
+    cursor: pointer;
+    border: none  ;
+    border-radius: 8px ;
+}
+.Shop .addicon{
+    cursor: pointer;
+}
+/* end */
+
+/* about Us */
+.aboutUsText h6 {
+    color:  rgb(94, 93, 93)!important;
+    font-weight: 600;
+}
+.aboutUsText p {
+    color:  rgba(115, 114, 114, 0.854)!important;
+    font-weight: 400;
+}
+.imgAbout img{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.imgAbout img:hover{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+@media screen and (max-width: 768px){
+    .imgAbout img{
+        width: 100% !important;
+
+    }
+}
+/* end */
+/* desgin section*/
+.ourDesginText p{
+    color:  rgba(115, 114, 114, 0.854)!important;
+}
+.ourDesginText li{
+    color:  rgba(115, 114, 114, 0.854)!important;
+}
+.Design img
+{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(129, 125, 125, 0.136);
+}
+@media screen and (max-width:768px) {
+    .Design .desginImg img
+{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(117, 116, 116, 0.137);
+}
+}
+@media screen and (min-width:768px) {
+    .Design .desginImg #underImg
+{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(117, 116, 116, 0.137);
+    transform: translate(100px , -90px);
+    
+}
+}
+
+@media screen and (min-height:1112px) {
+    .Design .desginImg #underImg
+{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(117, 116, 116, 0.137);
+    transform: translate(100px , -90px);
+}
+}
+@media screen and (min-height:1024px) {
+    .Design .desginImg #underImg
+{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(117, 116, 116, 0.137);
+    transform: translate(100px , -90px);
+}
+}
+.textitems h5 {
+    font-weight: 600;
+}
+.textitems p {
+    color:  rgba(115, 114, 114, 0.854)!important;
+    font-size: small;
+    
+}
+.textitems a {
+    text-decoration: none;
+    color: black !important;
+    font-weight: 600;
+    font-size: small;
+}
+.textitems a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.486) !important;
+}
+.items img{
+    background-color: rgba(131, 121, 121, 0.226);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 35%;
+}
+.items img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+/* end */
+/* read more */
+@media screen and (max-width:768px) {
+    .section-readMore .col-10{
+        padding: 20px;
+    }    
+}
+
+/* slider section */
+.textslider i:hover{
+    cursor: pointer;
+    color:  rgba(115, 114, 114, 0.747)!important;
+}
+.textslider p {
+    color:  rgba(115, 114, 114, 0.747)!important;
+    font-weight: 600;
+    font-size: larger;
+}
+.textslider img{
+    border: none;
+    border-radius: 50%;
+}
+@media screen and (max-width : 500px) {
+    .slider .textslider .descP {
+        width: 100% !important;
+        font-size: 10px !important;
+    }
+    .slider .textslider .aboutSlider img{
+        width: 75% !important;
+    }
+}
+@media screen and (min-width : 500px) {
+    .slider .textslider .descP {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width : 600px) {
+    .slider .textslider .aboutSlider {
+        font-size: 10px !important;
+    }
+}
+/* end */
+/* Blog */
+.texBlog a{
+    text-decoration: underline;
+    color: black !important;
+}
+.itemsBlog img {
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+}
+.itemsBlog img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.itemsBlog h6{
+    font-size: small;
+    font-weight: 600; 
+    padding-left: 10px;
+}
+
+
+/* end */
+/* subscribe */
+#form
+{
+    border-radius: 10px;
+    padding: 10px;
+}
+.Subscribe    .btn {
+    background: #3b5d50;
+    border-color: #3b5d50;
+    padding-left: 20px;
+    padding-right: 21.5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.imgSub:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+.Subscribe label{
+    color: #3b5d50;
+    font-size: large;
+    font-weight: 600 !important;
+}
+span i{
+    color: rgba(128, 128, 128, 0.411);
+    
+}
+
+/* end */
+hr{
+    width: 70%;
+    height:2px;
+    background-color: rgba(185, 183, 183, 0.294);
+    margin: auto;
+}
+/* footer */
+.itemsFooter h6{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.769);
+
+}
+.itemsFooter p{
+    color: rgba(42, 42, 42, 0.931);
+    font-size: 15px;
+    font-weight: 600;
+}
+.itemsFooter h6:hover{
+    color: rgba(128, 128, 128, 0.741);
+    transition: 0.2s;
+    cursor: pointer;
+}
+@media screen and (max-width:350px) {
+    .itemsFooter .col-5{
+        font-size: x-small !important;
+    }
+}
+
+.Furni-text{
+    color: #3b5d50;
+}
+/* end */
+/* copyright */
+@media screen and (max-width:768px) {
+    .copyright p {
+        font-size: small;
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .copyright h6 {
+        font-size: 10px;
+        width: 100% !important;
+    }
+}
+/* end */
