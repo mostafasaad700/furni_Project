@@ -1,7 +1,7 @@
 // slider//
 let ceoList = document.querySelectorAll('.fa-chevron-right');
-let ceoOne =  document.getElementById('#one');
-let ceoTwo =  document.getElementById('#two');
+let ceoOne =  document.getElementById('one');
+let ceoTwo =  document.getElementById('two');
 let ceoList2 = document.querySelectorAll('.fa-chevron-left');
 
 for( var i=0; i<ceoList.length; i++)
